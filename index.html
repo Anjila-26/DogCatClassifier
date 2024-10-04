@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat or Dog Predictor</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Cat or Dog Predictor</h1>
+        <form id="upload-form">
+            <div class="input-group">
+                <input type="text" id="image-url" placeholder="Paste image URL here">
+            </div>
+            <div class="or-divider">OR</div>
+            <label for="image-upload" class="file-upload-label">Choose Image File</label>
+            <input type="file" id="image-upload" accept="image/*">
+            <img id="image-preview" alt="Image preview" />
+            <button type="submit" class="submit-btn">Predict</button>
+        </form>
+        <div id="loading">
+            <div class="spinner"></div>
+        </div>
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
