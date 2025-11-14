@@ -114,9 +114,22 @@ button:hover, .submit-btn:hover {
     display: none;
 }
 
+
 .input-group {
     margin-bottom: 1rem;
     width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.input-group input[type="text"] {
+    width: 80%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin: 0 auto;
+    display: block;
 }
 
 .input-group input[type="text"] {
