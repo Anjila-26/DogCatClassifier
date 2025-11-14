@@ -14,7 +14,7 @@ A beginner-friendly web app to classify images as either a cat or a dog using a 
 
 ## Screenshot
 
-![App Screenshot](screenshot/screenshot.png)
+<img src="screenshot/image.png" alt="App Screenshot" width="600" />
 
 ---
 
