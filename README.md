@@ -27,6 +27,7 @@ A beginner-friendly web app to classify images as either a cat or a dog using a 
 
 ## Project Structure
 - `apicatdog.py` — API backend for inference
+- `cat-and-dog.ipynb` - Run this and you will get the model
 - `index.html`, `style.css`, `script.js` — Frontend files
 - `model1.pth` — Trained model file
 - `cat-and-dog.ipynb` — Model training notebook
@@ -36,11 +37,11 @@ A beginner-friendly web app to classify images as either a cat or a dog using a 
 ## Setup
 1. Install Python dependencies:
 	```bash
-	pip install torch torchvision flask
+	pip install -r requirements.txt
 	```
 2. Run the backend:
 	```bash
-	python apicatdog.py
+	uvicorn apicatdog:app --reload
 	```
 3. Open `index.html` in your browser.
 
